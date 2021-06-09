@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import CallToAction from './components/CallToAction';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-   <p>hello here</p>
-      </header>
-    </div>
+    <>
+  
+    <CallToAction/>
+   </>
   );
 }
 
