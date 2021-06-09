@@ -10,12 +10,14 @@ import {
   useColorModeValue,
   createIcon,
 } from '@chakra-ui/react';
+import { motion } from "framer-motion";
 
 export default function CallToAction() {
   return (
     <>
      
-  
+    <motion.div
+ animate={{ x: 100 }}>
 
       <Container maxW={'3xl'}>
         <Stack
@@ -76,6 +78,7 @@ export default function CallToAction() {
           </Stack>
         </Stack>
       </Container>
+      </motion.div>
     </>
   );
 }
